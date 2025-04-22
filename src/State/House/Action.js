@@ -28,7 +28,7 @@ export const fetchCities = () => async (dispatch) => {
   dispatch({ type: FETCH_CITIES_REQUEST });
 
   try {
-    const { data } = await api.get(`https://localhost:5000/house/cities`); // Fetch cities from API
+    const { data } = await api.get(`https://homeRental.eu-north-1.elasticbeanstalk.com:5000/house/cities`); // Fetch cities from API
     dispatch({ type: FETCH_CITIES_SUCCESS, payload: data });
     console.log("Fetched cities - ", data);
   } catch (error) {
