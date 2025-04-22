@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.8024cc94.css",
+    "main.js": "/static/js/main.959f0b3b.js",
+    "static/media/khushi.jpg": "/static/media/khushi.ad8d7fdb78a4ab0dc33e.jpg",
+    "static/media/anshu.jpg": "/static/media/anshu.1a9638578a1644d21819.jpg",
+    "static/media/diksha.jpg": "/static/media/diksha.1b6c330144335882a609.jpg",
+    "index.html": "/index.html",
+    "main.8024cc94.css.map": "/static/css/main.8024cc94.css.map",
+    "main.959f0b3b.js.map": "/static/js/main.959f0b3b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8024cc94.css",
+    "static/js/main.959f0b3b.js"
+  ]
+}
