@@ -235,7 +235,7 @@ import HouseCard from "./HouseCard";
 import { useSelector, useDispatch, shallowEqual } from "react-redux";
 import AuthModal from "../../Auth/AuthModel";
 
-const baseUrl = "http://homeRental.eu-north-1.elasticbeanstalk.com:5000/search";
+const baseUrl = "/api//search";
 const currencies = [
   { value: "1", label: "1000-20000" },
   { value: "2", label: "20000-40000" },
@@ -271,7 +271,7 @@ const Home = () => {
     const fetchCities = async () => {
       setLoadingCities(true);
       try {
-        const { data } = await axios.get("http://homeRental.eu-north-1.elasticbeanstalk.com:5000/cities");
+        const { data } = await axios.get("/api//cities");
         localStorage.setItem("cities", JSON.stringify(data));
         setCities(data);
       } catch (error) {
